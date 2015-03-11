@@ -2,6 +2,7 @@ package org.fossasia.fragments;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -29,6 +30,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -213,9 +215,21 @@ public class FossasiaEventDetailsFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(map));
+                final Dialog d = new Dialog(getActivity());
+                d.setContentView(R.layout.venue_dialog);
 
-                startActivity(intent);
+                TextView ok = (TextView) d.findViewById(R.id.venue_okay);
+
+                ok.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        d.dismiss();
+                    }
+                });
+                d.show();
+                /*Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(map));
+
+                startActivity(intent);*/
             }
         });
         roomTextView.setFocusable(true);

@@ -115,4 +115,16 @@
         <item name="android:windowExitAnimation">@anim/zoom_out</item>
     </style>
 
+    <style name="VenueAttributeTextView">
+        <item name="android:textSize"  > 13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="VenueAttributeValueTextView">
+        <item name="android:textSize" > 12sp</item>
+        <item name="android:textColor">@color/venue_attribute_value</item>
+    </style>
+
+
 </resources>

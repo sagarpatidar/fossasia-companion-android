@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="#EFEBEB"
+        android:layout_marginBottom="8dp"
+        android:text="Venue Details"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="#69655D"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeTextView"
+        android:text="Name"
+        android:layout_marginBottom="@dimen/venue_attribute_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeValueTextView"
+        android:text="The Landmark"
+        android:layout_marginBottom="@dimen/venue_attribute_value_margin_bottom"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeTextView"
+        android:text="Room"
+        android:layout_marginBottom="@dimen/venue_attribute_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeValueTextView"
+        android:text="A-23"
+        android:layout_marginBottom="@dimen/venue_attribute_value_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeTextView"
+        android:text="Address"
+        android:layout_marginBottom="@dimen/venue_attribute_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeValueTextView"
+        android:text="24/A, Kharghar, Navi Mumbai"
+        android:layout_marginBottom="@dimen/venue_attribute_value_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeTextView"
+        android:text="Map URL"
+        android:layout_marginBottom="@dimen/venue_attribute_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeValueTextView"
+        android:text="Map"
+        android:layout_marginBottom="@dimen/venue_attribute_value_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeTextView"
+        android:text="Link URL"
+        android:layout_marginBottom="@dimen/venue_attribute_margin_bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueAttributeValueTextView"
+        android:text="Link"
+        android:layout_marginBottom="@dimen/venue_attribute_value_margin_bottom"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/venue_okay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:background="#EB2222"
+        android:text="Okay"/>
+
+</LinearLayout>
