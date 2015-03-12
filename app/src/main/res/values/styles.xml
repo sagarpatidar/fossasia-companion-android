@@ -116,14 +116,23 @@
     </style>
 
     <style name="VenueAttributeTextView">
-        <item name="android:textSize"  > 13sp</item>
+        <item name="android:textSize"  > 14sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
 
     <style name="VenueAttributeValueTextView">
-        <item name="android:textSize" > 12sp</item>
+        <item name="android:textSize" > 13sp</item>
         <item name="android:textColor">@color/venue_attribute_value</item>
+    </style>
+
+    <style name="ThemeVenueDialog" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="VenueDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/partial_zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/partial_zoom_out_cum_total_fade</item>
     </style>
 
 

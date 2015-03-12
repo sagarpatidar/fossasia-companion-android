@@ -151,7 +151,7 @@ public class VolleyLog {
             // but had no debugging output printed for them.
             if (!mFinished) {
                 finish("Request on the loose");
-                e("Marker log finalized without finish() - uncaught exit point for request");
+                e("Marker log finalized without finish() - uncaught partial_zoom_out_cum_total_fade point for request");
             }
         }
 

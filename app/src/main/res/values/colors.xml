@@ -12,5 +12,5 @@
     <color name="schedule_time_foreground">#000</color>
     <color name="schedule_time_running_background">#d6000000</color>
     <color name="schedule_time_running_foreground">#fff</color>
-    <color name="venue_attribute_value">#878585</color>
+    <color name="venue_attribute_value">#797676</color>
 </resources>

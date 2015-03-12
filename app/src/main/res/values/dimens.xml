@@ -28,6 +28,6 @@
 
     <!-- Venue design -->
     <dimen name="venue_attribute_margin_bottom">0dp</dimen>
-    <dimen name="venue_attribute_value_margin_bottom">10dp</dimen>
+    <dimen name="venue_attribute_value_margin_bottom">7dp</dimen>
 
 </resources>

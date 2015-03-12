@@ -128,4 +128,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_track">TrackActivity</string>
 
+    <string name="venue_map"><u>Go to Map</u></string>
+    <string name="venue_link"><u>Visit Link</u></string>
+
 </resources>
